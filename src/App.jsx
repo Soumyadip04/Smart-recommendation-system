@@ -23,6 +23,20 @@ function App() {
   const [showRecommendations, setShowRecommendations] = useState(true);
   const [movies, setMovies] = useState(() => loadFromStorage('movies:data', SAMPLE_MOVIES));
 
+  // Migrate old Unsplash image URLs in localStorage to reliable picsum.photos
+  useEffect(() => {
+    setMovies(prev => {
+      const needsMigration = Array.isArray(prev) && prev.some(m => typeof m.image === 'string' && m.image.includes('unsplash.com'));
+      if (!needsMigration) return prev;
+      return prev.map(m => {
+        if (typeof m.image === 'string' && m.image.includes('unsplash.com')) {
+          return { ...m, image: `https://picsum.photos/seed/${m.id}/400/600` };
+        }
+        return m;
+      });
+    });
+  }, []);
+
   const genres = useMemo(() => ['All', ...new Set(movies.map(m => m.genre))], [movies]);
 
   useEffect(() => {

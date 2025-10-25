@@ -6,7 +6,7 @@ export const SAMPLE_MOVIES = [
     year: 1999,
     rating: 8.7,
     description: "A computer programmer discovers reality isn't what it seems.",
-    image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/1/400/600",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const SAMPLE_MOVIES = [
     year: 2010,
     rating: 8.8,
     description: "A thief enters people's dreams to steal secrets.",
-    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/2/400/600",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const SAMPLE_MOVIES = [
     year: 2008,
     rating: 9.0,
     description: "Batman faces his greatest challenge against the Joker.",
-    image: "https://images.unsplash.com/photo-1594736797933-d0a7ba6b831d?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/3/400/600",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const SAMPLE_MOVIES = [
     year: 1994,
     rating: 8.9,
     description: "Interconnected stories of crime in Los Angeles.",
-    image: "https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/4/400/600",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const SAMPLE_MOVIES = [
     year: 1994,
     rating: 8.8,
     description: "The extraordinary life of an ordinary man.",
-    image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/5/400/600",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const SAMPLE_MOVIES = [
     year: 1994,
     rating: 9.3,
     description: "Hope and friendship in the darkest of places.",
-    image: "https://images.unsplash.com/photo-1489599904472-1d493c44b173?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/6/400/600",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ export const SAMPLE_MOVIES = [
     year: 2014,
     rating: 8.6,
     description: "A journey through space and time to save humanity.",
-    image: "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/7/400/600",
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ export const SAMPLE_MOVIES = [
     year: 1990,
     rating: 8.7,
     description: "The rise and fall of a mob associate.",
-    image: "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/8/400/600",
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ export const SAMPLE_MOVIES = [
     year: 1972,
     rating: 9.2,
     description: "The aging patriarch of a crime dynasty.",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/9/400/600",
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ export const SAMPLE_MOVIES = [
     year: 1997,
     rating: 7.8,
     description: "A love story aboard the doomed ship.",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/10/400/600",
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ export const SAMPLE_MOVIES = [
     year: 2009,
     rating: 7.8,
     description: "A marine on an alien world discovers his true calling.",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/11/400/600",
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ export const SAMPLE_MOVIES = [
     year: 2012,
     rating: 8.0,
     description: "Earth's mightiest heroes unite against a common threat.",
-    image: "https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/12/400/600",
   },
   {
     id: 13,
@@ -115,7 +115,7 @@ export const SAMPLE_MOVIES = [
     rating: 8.6,
     description:
       "Greed and class discrimination threaten the symbiotic relationship between a wealthy family and a poor one.",
-    image: "https://images.unsplash.com/photo-1585647347483-22b66260dfff?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/13/400/600",
   },
   {
     id: 14,
@@ -125,7 +125,7 @@ export const SAMPLE_MOVIES = [
     rating: 8.4,
     description:
       "A mentally troubled comedian is disregarded by society and embarks on a downward spiral of revolution and bloody crime.",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/14/400/600",
   },
   {
     id: 15,
@@ -135,7 +135,7 @@ export const SAMPLE_MOVIES = [
     rating: 8.4,
     description:
       "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
-    image: "https://images.unsplash.com/photo-1608889175123-8ee362201f81?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/15/400/600",
   },
   {
     id: 16,
@@ -145,6 +145,6 @@ export const SAMPLE_MOVIES = [
     rating: 8.8,
     description:
       "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-    image: "https://images.unsplash.com/photo-1506466010722-395aa2bef877?w=400&h=600&fit=crop&auto=format&q=80",
+    image: "https://picsum.photos/seed/16/400/600",
   },
 ]
